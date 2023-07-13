@@ -1,0 +1,21 @@
+{
+  "name": "TypeScript Proxy Checker",
+  "version": "1.0.0",
+  "description": "TypeScript Proxy Checker",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Nego",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "fs": "^0.0.1-security"
+  }
+}
